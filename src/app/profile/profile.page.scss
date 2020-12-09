@@ -1,0 +1,54 @@
+ion-content {
+    --background: linear-gradient(197deg, rgba(100,100,100,1) 0%, rgba(63,63,63,1) 13.5%, rgba(0,0,0,1) 100%) !important;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+ion-toolbar {
+    --background: transparent;
+}
+
+ion-card{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+ion-card-content{
+    border-bottom: 3px solid black;
+}
+
+ion-button{
+    width: 100%;
+}
+
+.my-custom-menu {
+    --width: 500px;
+  }
+
+.container {
+    margin: 0 auto;
+
+    .header {
+        height: 200px;
+
+        .face {
+            width: 160px;
+            height: 160px;
+            position: relative;
+            margin: 0 auto;
+
+            img {
+                display: block;
+                border-radius: 50%;
+                position: absolute;
+                bottom: calc(-1*(80px + 4px));
+                border: 8px solid #92949c;
+                background-color: #fff;
+            }
+        }
+    }
+}

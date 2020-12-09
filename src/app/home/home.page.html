@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="secondary">
+      <ion-button (click)="profile()">
+        <ion-icon slot="icon-only" name="person-circle" routerDirection="Forward"></ion-icon>
+      </ion-button>
+      <ion-button (click)="addWorkout()">
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button color="danger">
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Popular Workouts</ion-title>
+  </ion-toolbar>
+
+
+</ion-header>
+  <ion-content>
+    <ion-card>
+      <img src="https://cdn2.coachmag.co.uk/sites/coachmag/files/2017/10/front-squat_1.jpg" />
+      <ion-card-header>
+        <ion-card-subtitle>Workout: </ion-card-subtitle>
+        <ion-card-title>Front Squats</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        The Front Squat is a lower-body exercise that will strengthen your legs and hips, particularly your quads (thigh muscles) and glutes (butt muscles).
+      </ion-card-content>
+
+      
+        <ion-button color="medium" (click)="details()" routerDirection="Forward">View a Step by guide</ion-button>
+    </ion-card>
+
+      <ion-card>
+        <img src="http://upl.stack.com/wp-content/uploads/2017/09/14134651/Push-Press-Final-Position-654x457.jpg" />
+        <ion-card-header>
+          <ion-card-subtitle>Workout: </ion-card-subtitle>
+          <ion-card-title>Front Squats</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          The Push Press is an explosive lift that is a derivative of the classic Olympic Lifts. It's one of the best total-body exercises, developing lower-body power while building shoulder strength and size.
+        </ion-card-content>
+  
+        
+          <ion-button color="medium">View a Step by guide</ion-button>
+      </ion-card>
+
+
+      <ion-card>
+        <img src="https://injuryactive.com/wp-content/uploads/2015/08/Back-Squat.jpg" />
+        <ion-card-header>
+          <ion-card-subtitle>Workout: </ion-card-subtitle>
+          <ion-card-title>Back Squat</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          The Back Squat is a lower-body exercise that strengthens the glutes, hamstrings and quads. It's often referred to as "the king of all exercises" due to its ability to build strength, power and size.
+        </ion-card-content>
+  
+        
+          <ion-button color="medium">View a Step by guide</ion-button>
+      </ion-card>
+
+      </ion-content>

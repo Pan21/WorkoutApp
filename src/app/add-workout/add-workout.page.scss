@@ -1,0 +1,39 @@
+form{
+    margin: 25px;
+    width: 90%;
+    min-height: 40%;
+    background-color: green;
+    border: 8px solid #9d9fa6;
+    border-radius: 10px;
+    background-color: rgba(63,63,63,1);
+    flex-direction: column;
+    h3{
+        padding-left: 10%;
+        text-align: start;
+    }
+
+
+    input{
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        width: 80%;
+        padding: 8px;
+        margin: 5px;
+        outline: none;
+        border: 2px solid #B0CFE0;
+    }
+
+    textarea{
+        margin: 5px;
+        width: 80%;
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        padding-bottom: 50px;
+        padding-right: 20px;
+        outline: none;
+        border: 1px solid #B0CFE0;
+    }
+
+}

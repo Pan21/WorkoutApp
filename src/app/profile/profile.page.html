@@ -1,0 +1,41 @@
+<ion-header translucent no-border>
+  <ion-toolbar>
+    <ion-title>User Profile</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="ion-adding">
+
+    <div class="container">
+      <div class="header">
+        <div class="face">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuSJzFdsxfNOjxTLkq3at5jkK_uPRzrBp-A&usqp=CAU" alt="">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <ion-card>
+    <ion-card-content>
+      <H1>Bob Francis</H1>
+    </ion-card-content>
+    <br>
+    <ion-card-content>
+      <H3>North Pole</H3>
+    </ion-card-content>
+
+    <ion-card-content (click)="home()">
+      <H2>Number of Personal Workouts: </H2><p> 7</p>
+    </ion-card-content>
+
+    <ion-button color="Primary">Logout</ion-button>
+  </ion-card>
+
+</ion-content>

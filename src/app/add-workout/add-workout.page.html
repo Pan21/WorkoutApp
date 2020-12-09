@@ -1,0 +1,32 @@
+<ion-header translucent no-border>
+  <ion-toolbar>
+    <ion-title>Add a New slot</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+
+    <h1>Use the Inputs below to add a new Workout</h1>
+
+    <form>
+      <h1>Fill out the form Below: </h1>
+      <input name="Workout Type" type="text" class="WorkoutInput" placeholder="Workout Type..." />   
+      <input name="Workout Name" type="text" class="WorkoutInput" placeholder="Workout Name..." />
+      <input type="Workout IMG" name="text" class="WorkoutInput" placeholder="Workout Photo URL..." />
+      <textarea name="Steps" class="CommentInput" placeholder="Step..."></textarea>
+      <ion-button>
+        <ion-icon slot="icon-only" name="add-circle"></ion-icon>
+      </ion-button>
+
+      <input type="submit" value="Add Workout" (click)="home()"/>
+    </form>
+
+
+  </ion-card>
+
+</ion-content>
