@@ -9,4 +9,4 @@ This application uses a Base of Ionic to allow the creation of a mobile app. The
 Using the angular framework to allow the connection between multiple pages. The program also firestore database to be able to store personal workouts.
 
 Below is a functional link to the app live: 
-(https://in-info-web4.informatics.iupui.edu/~zjrobert/FinalApp/home)
+(https://in-info-web4.informatics.iupui.edu/~zjrobert/FinalApp/)
