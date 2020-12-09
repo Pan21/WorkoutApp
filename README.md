@@ -1,7 +1,7 @@
-# WorkoutApp
+# Workout App
 
-Created by Zachary Roberts
-Date: 12/08/2020
+## Created by Zachary Roberts
+### Date: 12/08/2020
 
 This application was created to allow a user to create and track personal Workouts.
 
